@@ -1,0 +1,18 @@
+language: rust
+rust:
+  # - nightly-2019-04-01
+  # - nightly-2019-05-01
+  # - nightly-2019-06-01
+  # - nightly-2019-07-01
+  - nightly-2019-08-01
+  - nightly-2019-08-10
+  - nightly-2019-08-20
+  - nightly-2019-08-30
+  - nightly-2019-09-01
+  - nightly-2019-09-24
+  - nightly-2019-09-25
+  - nightly-2019-10-01
+  - nightly-2019-11-01
+script:
+  - cargo build
+  - cargo test
